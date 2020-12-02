@@ -1,0 +1,41 @@
+[debug] [2020-11-20T11:28:05.509Z] ----------------------------------------------------------------------
+[debug] [2020-11-20T11:28:05.512Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Vibhor Saxena\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2020-11-20T11:28:05.512Z] CLI Version:   7.12.0
+[debug] [2020-11-20T11:28:05.512Z] Platform:      win32
+[debug] [2020-11-20T11:28:05.512Z] Node Version:  v10.16.3
+[debug] [2020-11-20T11:28:05.513Z] Time:          Fri Nov 20 2020 16:58:05 GMT+0530 (India Standard Time)
+[debug] [2020-11-20T11:28:05.513Z] ----------------------------------------------------------------------
+[debug] [2020-11-20T11:28:05.513Z] 
+[debug] [2020-11-20T11:28:05.520Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-11-20T11:28:05.520Z] > authorizing via signed-in user
+[info] i  emulators: Starting emulators: functions, hosting
+[warn] !  Your requested "node" version "8" doesn't match your global version "10"
+[info] +  functions: Emulator started at http://localhost:5001
+[debug] [2020-11-20T11:28:10.069Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/clone-2f0c6/webApps/-/config  
+ 
+[debug] [2020-11-20T11:28:11.665Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: build
+[info] +  hosting: Local server: http://localhost:5000
+[info] +  hosting: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\Vibhor Saxena\Desktop\amazon-clone\amazon-clone\functions" for Cloud Functions...
+[debug] [2020-11-20T11:28:12.260Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-11-20T11:28:12.260Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-11-20T11:28:12.260Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-11-20T11:28:12.261Z] [worker-~diagnostic~-e5fa288f-04b0-43e2-bfbb-f25499c705fb]: Assigning socketPath: \\?\pipe\C:\Users\Vibhor Saxena\Desktop\amazon-clone\amazon-clone\functions\15604
+[debug] [2020-11-20T11:28:12.261Z] [worker-~diagnostic~-e5fa288f-04b0-43e2-bfbb-f25499c705fb]: BUSY
+[debug] [2020-11-20T11:28:12.627Z] [runtime-status] [15604] Functions runtime initialized. {"cwd":"C:\\Users\\Vibhor Saxena\\Desktop\\amazon-clone\\amazon-clone\\functions","node_version":"10.16.3"}
+[debug] [2020-11-20T11:28:12.628Z] [runtime-status] [15604] Disabled runtime features: undefined
+[debug] [2020-11-20T11:28:12.631Z] [runtime-status] [15604] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\Vibhor Saxena\\Desktop\\amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-11-20T11:28:12.633Z] [runtime-status] [15604] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.11.0","resolution":"C:\\Users\\Vibhor Saxena\\Desktop\\amazon-clone\\amazon-clone\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-11-20T11:28:18.833Z] [runtime-status] [15604] Found google-gax at C:\Users\Vibhor Saxena\Desktop\amazon-clone\amazon-clone\functions\node_modules\google-gax\build\src\index.js
+[debug] [2020-11-20T11:28:18.834Z] [runtime-status] [15604] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"},{"name":"google-gax","status":"mocked"}]
+[debug] [2020-11-20T11:28:18.882Z] [runtime-status] [15604] Checked functions.config() {"config":{}}
+[debug] [2020-11-20T11:28:18.915Z] [runtime-status] [15604] Error in handleMessage: {"frb":{"cwd":"C:\\Users\\Vibhor Saxena\\Desktop\\amazon-clone\\amazon-clone\\functions","projectId":"clone-2f0c6","triggerId":"","ports":{},"socketPath":"\\\\?\\pipe\\C:\\Users\\Vibhor Saxena\\Desktop\\amazon-clone\\amazon-clone\\functions\\15604"},"opts":{"nodeBinary":"C:\\Program Files\\nodejs\\node.exe"}} => TypeError: Cannot set property config of #<Object> which has only a getter: TypeError: Cannot set property config of #<Object> which has only a getter
+    at C:\Users\Vibhor Saxena\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:513:19
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\Vibhor Saxena\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:4:58)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[warn] !  functions:
+[warn] !  Your function was killed because it raised an unhandled error.
+[debug] [2020-11-20T11:28:18.925Z] [worker-~diagnostic~-e5fa288f-04b0-43e2-bfbb-f25499c705fb]: exited
+[debug] [2020-11-20T11:28:18.925Z] [worker-~diagnostic~-e5fa288f-04b0-43e2-bfbb-f25499c705fb]: FINISHED
